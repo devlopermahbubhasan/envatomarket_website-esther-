@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.fix-width{
+    width: 1300px;
+    margin: auto;
+}
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.top-banner{
+    background-image: url(./img/bg-esther.jpg) ;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 650px;
+    
+}
+.text-1{
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 53px;
+    font-weight: 300;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 72px;
+    display: block;
+    line-height: 65px;
+}
+.text-2{
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 53px;
+    font-weight: 500;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 72px;
+    display: block;
+    line-height: 65px;
+}
+.text-3{
+    position: absolute;
+    margin-top: 188px;
+    margin-left: 53px;
+    font-weight: 300;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 72px;
+    display: block;
+    line-height: 65px;
+}
+.text-4{
+    position: absolute;
+    margin-top: 266px;
+    margin-left: 53px;
+    color: #333;
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 400;
+}
+.butoom-hader{
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 53px;
+}
+.butoom-hader a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #333;
+    text-transform: uppercase;
+    border: 2px solid #333;
+    line-height: 50px;
+    padding: 0 45px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.butoom-hader a:hover{
+    color: #eb3d32;
+    border-color: #eb3d32;
+}
+.content_section{
+    text-align: center;
+    margin-top: 100px;
+}
+.content_section h2 {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #2e2e2e;
+    text-transform: capitalize;
+}
+.content_section p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #2e2e2e;
+    margin-bottom: 0;
+}
+.home-page{
+    margin-top: 65px;
+}
+.home-img-left img{
+    max-width: 100%;
+
+}
+.home-img-left{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin-right:3% ;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    
+}
+.home-button{
+    margin-bottom: 10px;
+}
+.home-button a{
+    color: black;
+    text-decoration: none;
+    border: 2px solid #ededec;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 75px;
+    margin-top: 30px;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.home-button a:hover{
+    color: #eb3d32;
+    border-color: #eb3d32;
+}
+.header-titile{
+    text-align: center;
+    margin-bottom: 63px;
+}
+.header-titile h2{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #2e2e2e;
+}
+.header-titile p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #2e2e2e;
+    margin-bottom: 0;
+}
+.box-img{
+    text-align: center;
+}
+.box-img img {
+    margin-bottom: 40px;
+}
+.content-tiitel{
+    text-align: center;
+}
+.content-tiitel h2{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #2e2e2e;
+    text-transform: capitalize;
+}
+.content-tiitel p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #2e2e2e;
+    margin-bottom: 0;
+}
+.content-tiitel img{
+    margin-top: 60px;
+}
+.fotter-top{
+    text-align: center;
+    padding: 110px 0;
+    background-color: #131313;
+}
+.fotter-top h3{
+    font-size: 36px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: white;
+}
+.fotter-top p{
+    color: #fff;
+    font-size: 24px;
+}
+.fotter-top a{
+    display: inline-block;
+    line-height: 55px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background: #eb3d32;
+    color: #fff;
+    padding: 0 46px;
+    margin: 65px 0 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+}
+.copyright-area{
+    text-align: center;
+    padding: 31px 0;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    
+}
+.copyright-text{
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.copyright-text a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.copyright-text a:hover{
+    text-decoration: underline;
+}
+.fotter-area{
+    background-color: #131313;
+}
